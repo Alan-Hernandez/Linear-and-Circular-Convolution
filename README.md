@@ -10,10 +10,15 @@ PC installed with SCILAB.
 ## PROGRAM (Linear Convolution): 
 
 // Linear Convolution
+
 clc;
+
 clear;
+
 x = [1 2 3 4];
+
 h = [2 4 8 6];
+
 m = length(x);
 n = length(h);
 a=0:1:m-1;
